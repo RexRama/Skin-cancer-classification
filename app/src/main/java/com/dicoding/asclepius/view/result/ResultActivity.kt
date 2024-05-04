@@ -26,7 +26,6 @@ class ResultActivity : AppCompatActivity() {
         viewModel =
             ViewModelProvider(this@ResultActivity, viewModelFactory)[ResultViewModel::class.java]
 
-        // TODO: Menampilkan hasil gambar, prediksi, dan confidence score.
         val result = intent.getStringExtra(EXTRA_RESULT)
         val prediction = intent.getStringExtra(EXTRA_PREDICT)
         val score = intent.getStringExtra(EXTRA_SCORE)
