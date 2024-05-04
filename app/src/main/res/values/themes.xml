@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/teal_dark</item>
+        <item name="android:colorBackground">@color/white_teal</item>
+        <item name="colorOnPrimary">@color/white_shade</item>
+        <item name="android:statusBarColor">@color/teal_light</item>
+        <item name="android:navigationBarColor">@color/teal_light</item>
+        <item name="colorAccent">@color/teal</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Asclepius" parent="Base.Theme.Asclepius" />
+
+    <style name="Theme.BottomNavbar" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/teal_light</item>
+    </style>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Asclepius</string>
+    <string name="camera_x">CameraX</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="analyze">Analyze</string>
+    <string name="result">Hasil Analisis</string>
+    <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="History">History</string>
+    <string name="Article">Article</string>
+    <string name="Home">Home</string>
+    <string name="btn_delete">Delete</string>
+    <string name="Save">Save</string>
+    <string name="prediction">Prediksi</string>
+    <string name="score">score</string>
+</resources>
